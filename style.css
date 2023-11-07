@@ -6,7 +6,6 @@
 html,body{
  height: 100%;width: 100%;
  background: #1c1919;
-position:relative;
 }
 .nameform{
     /* From https://css.glass */
