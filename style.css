@@ -16,11 +16,11 @@ backdrop-filter: blur(3.3px);
 -webkit-backdrop-filter: blur(3.3px);
 border: 1px solid rgba(91, 74, 74, 0.45);
     font-weight: bold;
-    height: 150px;
+    height: 30vh;
     /* opacity: 1; */
-    /* width: 150px; */
+    width: 30vh;
     position: absolute; 
-    left: 25%;top: 25%;
+    left: 20%;top: 25%;
     /* display: flex; */
     display: none;
     flex-direction: column;
@@ -41,6 +41,7 @@ border: 1px solid rgba(91, 74, 74, 0.45);
     border: 0px;
     border-radius: 2px;
     color: aliceblue;
+    width: 90%;
     background: black; padding: 4px 10px;
 
 }
@@ -48,6 +49,7 @@ border: 1px solid rgba(91, 74, 74, 0.45);
     outline: none;
 }
 #main{
+    position: relative;
     height: 100%;
     width: 100%;
     display: flex;
@@ -117,7 +119,7 @@ border: 1px solid rgba(91, 74, 74, 0.45);
     border: 0px;
     border-radius: 2px;
     height: 100%;
-    width: 300px;
+    width: 100%;
     color: aliceblue;
     background: black;
     
