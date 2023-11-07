@@ -140,3 +140,7 @@ addtask.addEventListener('click', function () {
 
 })
 
+taskinput.addEventListener("focus", function() {
+    taskinput.scrollIntoView({ behavior: "smooth", block: "start" });
+});
+
